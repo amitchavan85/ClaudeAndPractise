@@ -10,7 +10,7 @@ Claude Code is different from typical chat applications. Understanding how it wo
     It verifies the results and determines whether they achieve what your prompt set out to do.
     If they do, Claude finishes and waits for the next prompt. If they don't, it loops back and tries again until the results are complete and verifiable.
     Throughout this loop, you can add context, interrupt, or steer the model to help guide it toward your goal.
-    ![ AngenticLoop ](https://github.com/amitchavan85/ClaudeAndPractise/tree/main/Claude101/Code-101/image.png)
+   ![Alt text](image.png?raw=true "Title")
     Diagram of the agentic loop: Your prompt flows into the loop of Gather context, Take action, and Verify results, with the ability to interrupt, steer, or add context at any point
 
 ### Context
