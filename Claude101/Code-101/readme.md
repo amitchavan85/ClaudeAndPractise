@@ -29,3 +29,6 @@ Claude Code is an agentic coding tool that understands your codebase, edits your
     You control its permissions. Claude Code's permission modes let you choose how hands-on to be: it can ask you before running commands or making changes, or run in auto mode, where a background safety check screens most actions instead. You're always in control, whether you prefer a hands-on or hands-off approach.
 
     It can make mistakes. Just like any tool, Claude Code isn't perfect. It might misunderstand your intent, introduce a bug, or over-engineer a solution. Staying in the loop helps you catch these early.
+
+
+## ![The model family](image2.png?raw=true "The model family")
