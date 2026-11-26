@@ -15,6 +15,14 @@ from chatserver import ChatServer
 
 
 chat_server = ChatServer()
+chat_server.set_ai_proovider("Anthropic")  # Set the AI provider to Anthropic
+chat_server.set_model_to_use("claude-sonnet-5-5")  # Set the model to use    
+chat_server.set_max_tokens(100)  # Set the maximum number of tokens to generate
+chat_server.model_temperature(0.7)  # Set the temperature for randomness
+chat_server.should_steam_response(True)  # Enable streaming for real-time responses 
+ # Set the system prompt for the assistant
+
+
 chat_server.add_user_message("Hello, what is the capital of France?")
 answer = chat_server.send_message()
 print(answer)
